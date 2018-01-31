@@ -13,7 +13,9 @@ router.use(RoutesMiddleware.setupCrossDomain);
 //Database transaction
 router.use(RoutesMiddleware.transaction);
 
+router.use('/', function(){
 
+});
 
 //unhandled request
 router.use(RoutesMiddleware.unhandledRequest);
