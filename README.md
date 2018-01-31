@@ -1,1 +1,1 @@
-# graphql_vs_rest
+# GraphQL vs REST

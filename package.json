@@ -1,0 +1,34 @@
+{
+  "name": "graphql_vs_rest",
+  "version": "1.0.0",
+  "description": "GraphQL vs REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hdavid27/graphql_vs_rest.git"
+  },
+  "author": "Hugo David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdavid27/graphql_vs_rest/issues"
+  },
+  "homepage": "https://github.com/hdavid27/graphql_vs_rest#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "intel": "^1.2.0",
+    "lodash": "^4.17.4",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "pg": "^7.4.1",
+    "pg-native": "^2.2.0",
+    "rekuire": "^0.1.9",
+    "sequelize": "^4.32.2"
+  }
+}
