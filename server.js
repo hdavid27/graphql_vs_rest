@@ -2,6 +2,7 @@ var express = require('express');
 var rekuire = require('rekuire');
 var Promise = require('bluebird');
 var _ = require('lodash');
+var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var morgan = require('morgan');
 var fs = require('fs');
@@ -15,6 +16,7 @@ var logger = rekuire('utils/LoggerProvider').getLogger();
 //Prepare server
 var app = express();
 
+app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(morgan('common'));
 

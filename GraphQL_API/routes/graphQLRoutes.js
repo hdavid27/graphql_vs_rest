@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var configuration = rekuire('configuration');
 var logger = rekuire('utils/LoggerProvider').getLogger();
 
-//var RoutesMiddleware = require('./middleware/restRoutes');
+var RoutesMiddleware = require('./middleware/graphQLRoutesMiddleware');
 
 var router = express.Router();
 
